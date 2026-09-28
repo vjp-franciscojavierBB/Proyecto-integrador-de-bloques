@@ -69,7 +69,20 @@ Guardamos una captura de DevTools donde se vean las peticiones y sus datos.
 
 Guardamos la captura en img.
 
+Carga de estilos de Wikipedia — Captura 192041
+La URL empieza por es.wikipedia.org/w/load.php y contiene parámetros relacionados con estilos y módulos de la página. El navegador solicita esos recursos para que el artículo tenga el diseño y formato de Wikipedia.
 
+![alt text](Img/1.png)
+
+Carga de los mosaicos del mapa — Captura 192046
+La petición va a maps.wikimedia.org y la URL incluye osm-intl y coordenadas. Corresponde a una imagen o mosaico del mapa de OpenStreetMap que aparece en el artículo. El mapa completo se construye juntando varios mosaicos.
+
+![alt text](Img/2.png)
+
+Carga del artículo — Captura 192035
+La URL apunta a es.wikipedia.org/wiki/Batalla_de_las_Termópilas. Es la petición del documento principal del artículo, que el navegador necesita para mostrar su contenido.
+
+![alt text](Img/3.png)
 
 Conclusión
 
