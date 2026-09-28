@@ -6,14 +6,19 @@ Kevin Núñez Sánchez
 
 Javier Becerro Batuecas
 
-Descripción del caso
+**Descripción del caso**
 
 En este trabajo analizamos Wikipedia en español, una enciclopedia en línea. Observamos cómo se carga un artículo en el navegador y cómo se comunican el navegador y los servidores de Wikipedia.
+
+
 
 El artículo analizado es **Batalla de las Termópilas**.  
 URL: https://es.wikipedia.org/wiki/Batalla_de_las_Term%C3%B3pilas
 
-Recorrido de una petición
+
+
+**Recorrido de una petición**
+
 
 El usuario abre el artículo en el navegador.
 
@@ -22,6 +27,9 @@ El navegador solicita la página y los recursos necesarios para mostrarla.
 Los servidores de Wikipedia responden a esas peticiones.
 
 El navegador procesa las respuestas y muestra el artículo.
+
+
+
 
 Esquema:
 
@@ -35,15 +43,21 @@ Navegador procesa las respuestas y muestra el artículo
 
 Reparto entre frontend y backend
 
-Frontend (navegador)
+
+
+**Frontend (navegador)**
+
 
 Muestra el artículo y los controles de la página.
 
 Solicita los recursos necesarios para mostrar el contenido.
 
-Procesa las respuestas recibidas y las presenta al usuario.
+Procesa las respuestas recibidas y las presenta al usuario.ç
 
-Backend (servidores)
+
+
+**Backend (servidores)**
+
 
 Recibe las peticiones del navegador.
 
@@ -53,7 +67,8 @@ Envía respuestas HTTP que el navegador procesa para mostrar la página.
 
 
 
-Cómo obtuvimos los datos
+**Cómo obtuvimos los datos**
+
 
 Abrimos el artículo elegido en Wikipedia.
 
@@ -67,24 +82,9 @@ Guardamos una captura de DevTools donde se vean las peticiones y sus datos.
 
 
 
-Guardamos la captura en img.
 
-Carga de estilos de Wikipedia — Captura 192041
-La URL empieza por es.wikipedia.org/w/load.php y contiene parámetros relacionados con estilos y módulos de la página. El navegador solicita esos recursos para que el artículo tenga el diseño y formato de Wikipedia.
 
-![alt text](Img/1.png)
-
-Carga de los mosaicos del mapa — Captura 192046
-La petición va a maps.wikimedia.org y la URL incluye osm-intl y coordenadas. Corresponde a una imagen o mosaico del mapa de OpenStreetMap que aparece en el artículo. El mapa completo se construye juntando varios mosaicos.
-
-![alt text](Img/2.png)
-
-Carga del artículo — Captura 192035
-La URL apunta a es.wikipedia.org/wiki/Batalla_de_las_Termópilas. Es la petición del documento principal del artículo, que el navegador necesita para mostrar su contenido.
-
-![alt text](Img/3.png)
-
-Conclusión
+**Conclusión**
 
 Al cargar un artículo de Wikipedia, el navegador realiza peticiones HTTP a los servidores para obtener la página y los recursos que necesita. Las respuestas incluyen distintos tipos de contenido, que el navegador procesa para mostrar el artículo. Con DevTools podemos observar detalles de esas comunicaciones, como el método, el estado HTTP y el tipo de contenido.
 
