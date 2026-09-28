@@ -51,61 +51,11 @@ Devuelve el contenido del artículo y los recursos solicitados.
 
 Envía respuestas HTTP que el navegador procesa para mostrar la página.
 
-Análisis de tres peticiones HTTP
 
-Los datos de esta tabla deben copiarse de DevTools → Red / Network. Elegid tres peticiones realizadas al cargar o utilizar el artículo.
-
-N.º
-
-Recurso o URL (resumida)
-
-Método
-
-Código de estado
-
-Content-Type
-
-¿Qué recurso carga?
-
-1
-
-[completar]
-
-[completar]
-
-[completar]
-
-[completar]
-
-[explicar brevemente]
-
-2
-
-[completar]
-
-[completar]
-
-[completar]
-
-[completar]
-
-[explicar brevemente]
-
-3
-
-[completar]
-
-[completar]
-
-[completar]
-
-[completar]
-
-[explicar brevemente]
 
 Cómo obtuvimos los datos
 
-Abrimos el artículo elegido en Wikipedia en español.
+Abrimos el artículo elegido en Wikipedia.
 
 Abrimos las herramientas de desarrollador con F12 y seleccionamos Red / Network.
 
@@ -115,9 +65,9 @@ Seleccionamos tres peticiones y anotamos el método, el código de estado y el e
 
 Guardamos una captura de DevTools donde se vean las peticiones y sus datos.
 
-Captura de DevTools
 
-Guardamos la captura en capturas/peticiones-devtools.png.
+
+Guardamos la captura en img.
 
 
 
