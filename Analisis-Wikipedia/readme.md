@@ -2,16 +2,16 @@ Análisis de Wikipedia en español
 
 Integrantes
 
-[Nombre y apellido]
+Kevin Núñez Sánchez
 
-[Nombre y apellido]
+Javier Becerro Batuecas
 
 Descripción del caso
 
 En este trabajo analizamos Wikipedia en español, una enciclopedia en línea. Observamos cómo se carga un artículo en el navegador y cómo se comunican el navegador y los servidores de Wikipedia.
 
-El artículo analizado es [nombre del artículo].
-URL: [pegar aquí la dirección del artículo]
+El artículo analizado es **Batalla de las Termópilas**.  
+URL: https://es.wikipedia.org/wiki/Batalla_de_las_Term%C3%B3pilas
 
 Recorrido de una petición
 
@@ -133,6 +133,5 @@ Reparto del trabajo
 
 Referencias
 
-Wikipedia en español
-
-[Artículo analizado]([pegar aquí la dirección del artículo])
+- [Wikipedia en español](https://es.wikipedia.org/)
+- [Artículo: Batalla de las Termópilas](https://es.wikipedia.org/wiki/Batalla_de_las_Term%C3%B3pilas)
